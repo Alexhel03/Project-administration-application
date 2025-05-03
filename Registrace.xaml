@@ -1,0 +1,18 @@
+﻿<Window x:Class="ProjektAdmin.Registrace"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjektAdmin"
+        mc:Ignorable="d"
+        Title="Registrace" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="tb_Jmeno" HorizontalAlignment="Left" Margin="212,31,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="528" Height="48" FontSize="36"/>
+        <Label Content="Jméno:" HorizontalAlignment="Left" Margin="36,26,0,0" VerticalAlignment="Top" FontSize="36" Width="120"/>
+        <Label Content="Heslo:" HorizontalAlignment="Left" Margin="36,89,0,0" VerticalAlignment="Top" FontSize="36" Width="154"/>
+        <TextBox x:Name="tb_Heslo" HorizontalAlignment="Left" Margin="212,94,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="528" Height="48" FontSize="36"/>
+        <Button x:Name="btn_zpatky" Content="Vrátit" HorizontalAlignment="Left" Margin="20,354,0,0" VerticalAlignment="Top" Height="64" Width="152" FontSize="36" Click="Button_Click"/>
+        <Button x:Name="tb_registrace" Content="Vytvořit" HorizontalAlignment="Left" Margin="607,354,0,0" VerticalAlignment="Top" Height="64" Width="152" FontSize="36" Click="Tb_Registrace_Click"/>
+
+    </Grid>
+</Window>

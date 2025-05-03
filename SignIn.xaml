@@ -1,0 +1,18 @@
+﻿<Window x:Class="ProjektAdmin.SignIn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjektAdmin"
+        mc:Ignorable="d"
+        Title="SignIn" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="tb_Jmeno" HorizontalAlignment="Left" Margin="87,15,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="167" Height="32" FontSize="20"/>
+        <TextBox x:Name="tb_heslo" HorizontalAlignment="Left" Margin="87,52,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="167" Height="32" FontSize="20"/>
+        <Label Content="Jmeno:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="20" Width="83"/>
+        <Label Content="Heslo:" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top" FontSize="20" Width="83"/>
+        <Label x:Name="label_account" Content="Seš in" HorizontalAlignment="Left" Margin="439,180,0,0" VerticalAlignment="Top" Height="92" Width="244" FontSize="72" Visibility="Hidden"/>
+        <Button x:Name="btn_prihlasit" Content="Přihlásit" HorizontalAlignment="Left" Margin="208,89,0,0" VerticalAlignment="Top" Click="btn_prihlasit_Click"/>
+
+    </Grid>
+</Window>
